@@ -42,3 +42,21 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 1658758297
+    locked: 0
+  - name: Buildings_bottom
+    uniqueID: 1576992995
+    locked: 0
+  - name: Details
+    uniqueID: 2747848271
+    locked: 0
+  - name: Characters
+    uniqueID: 3206392109
+    locked: 0
+  - name: Buildings_hiding
+    uniqueID: 14099631
+    locked: 0
+  - name: UI
+    uniqueID: 2824815223
+    locked: 0
