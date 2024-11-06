@@ -16,7 +16,11 @@ public class PlayerTDM : MonoBehaviour
 
     Rigidbody2D rb;
     SpriteRenderer mySprite;
-    Vector2 movement;
+    [HideInInspector]
+    public Vector2 movement;
+
+    [HideInInspector]
+    public Vector2 dir;
 
     // Start is called before the first frame update
     void Start()
@@ -32,7 +36,7 @@ public class PlayerTDM : MonoBehaviour
         movement.y = Input.GetAxisRaw("Vertical");
         if(movement.magnitude > 0)
         {
-            var dir = movement;
+            dir = movement;
             Debug.Log(dir);
         }
 
