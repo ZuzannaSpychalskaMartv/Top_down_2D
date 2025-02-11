@@ -52,6 +52,9 @@ TagManager:
   - name: Details
     uniqueID: 2747848271
     locked: 0
+  - name: grass
+    uniqueID: 2618101055
+    locked: 0
   - name: Characters
     uniqueID: 3206392109
     locked: 0
